@@ -1,0 +1,35 @@
+ssh root@143.244.151.226
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click Django Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+Access the Django admin site
+    URL: http://143.244.151.226/admin
+    User: django
+    Pass: 41e3bb943660e9a7e073a9cb5d93a4f2
+
+Use these SFTP credentials to upload files with FileZilla/WinSCP/rsync:
+    Host: 143.244.151.226
+    User: django
+    Pass: 41e3bb943660e9a7e073a9cb5d93a4f2
+
+Django is configured to use Postgres as its database. Use the following
+credentials to manage the database:
+    Database: django
+    User:     django
+    Pass:     4c86624c7601c371eed84d84d0ada906
+
+In a web browser, you can view:
+ * The Django 1-Click Quickstart guide: https://do.co/3bY3b67#start
+ * The new Django site: http://143.244.151.226
+
+On the server:
+  * The Django application is served from /home/django/django_project
+  * The Django passwords and keys are saved in /root/.digitalocean_passwords
+  * Certbot is preinstalled. Run it to configure HTTPS.
+
+For help and more information, visit https://do.co/3bY3b67
+
+********************************************************************************
