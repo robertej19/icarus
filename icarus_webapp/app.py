@@ -18,10 +18,10 @@ mail = Mail(app)
 
 @app.route("/")
 def index():
-   msg = Message('Hello', sender = 'yourId@gmail.com', recipients = ['robertej17@gmail.com'])
-   msg.body = "Hello Flask message sent from Flask-Mail"
+   msg = Message('Notifications', sender = 'no.reply.icarus@gmail.com', recipients = ['robertej17@gmail.com'])
+   msg.body = "Fire Alerts"
    mail.send(msg)
-   return "Sent"
+   return "Message Sent"
 
 if __name__ == '__main__':
    app.run(debug = True)
